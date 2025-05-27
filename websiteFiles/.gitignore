@@ -1,22 +1,19 @@
-# Ignore Composer vendor directory (if you use Composer)
-vendor/
+# Dependency directories
+/vendor/
+/node_modules/
 
-# Ignore environment files (may contain sensitive info)
-.env
-
-# Ignore log files
-*.log
-
-# OS system files
+# System files
 .DS_Store
 Thumbs.db
 
-# Laragon specific cache or temp files (if any)
+# IDE/editor folders
+.vscode/
+/.idea/
+
+# Logs and temp
+*.log
 *.tmp
 *.cache
 
-# Ignore IDE/editor folders and files (adjust if you use another editor)
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
+# Environment files
+.env
