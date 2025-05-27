@@ -1,0 +1,22 @@
+# Ignore Composer vendor directory (if you use Composer)
+vendor/
+
+# Ignore environment files (may contain sensitive info)
+.env
+
+# Ignore log files
+*.log
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Laragon specific cache or temp files (if any)
+*.tmp
+*.cache
+
+# Ignore IDE/editor folders and files (adjust if you use another editor)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

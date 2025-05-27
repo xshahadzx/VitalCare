@@ -1,0 +1,6 @@
+
+{
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./cssFiles/styles.css -o ./websiteFiles/output.css --watch"
+  }
+}
