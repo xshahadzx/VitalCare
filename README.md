@@ -7,7 +7,7 @@
 - Secure authentication system (login, logout)
 - Doctor profiles with availability
 - Booking system for appointments
-- Search by doctor name or specialty
+- Search by doctor name ,specialty, insurance
 - Admin panel for managing doctors, users, and bookings
 - Responsive and user-friendly UI
 
